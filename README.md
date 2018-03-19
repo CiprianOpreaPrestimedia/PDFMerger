@@ -1,6 +1,6 @@
 # PDFMerger for PHP (version 5.3 to 7.2)
 
-PDFMerger forked from myokyawhtun/PDFMerger
+PDFMerger forked from [myokyawhtun/PDFMerger](https://github.com/myokyawhtun/PDFMerger)
 
 New features:
 * PSR-4 support
