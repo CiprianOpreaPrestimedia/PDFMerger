@@ -1,27 +1,25 @@
 {
-    "name": "myokyawhtun/pdfmerger",
-    "description": "PDFMerger for PHP (PHP 5 and up to PHP 7.1 Compatible)",
+    "name": "andreaventuri/pdfmerger",
+    "description": "PDFMerger for PHP (version 5.3 to 7.2)",
+    "keywords": ["pdf", "pdf merge", "tcpdf", "tcpdi"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
-    	{
-    		"name":"Jarrod Nettles",
-    		"email": "jarrod@squarecrow.com"
-    	},
-    	{
-    		"name":"Vasiliy Zaytsev",
-    		"email":"vasiliy.zaytsev@ffwagency.com"
-    	},
-    	{
-    		"name":"Myo Kyaw Htun",
-    		"email":"myochauhtun@gmail.com"
-    	}
+        {
+            "name":"Andrea Venturi",
+            "email": "a.venturi@gmail.com",
+            "homepage": "http://www.andreaventuri.it"
+        }
     ],
-    "require":{
-    	"php": ">=5.2.0"
+    "require": {
+        "php": ">=5.3.0",
+        "tecnickcom/tcpdf": "dev-master",
+        "propa/tcpdi": "dev-master"
+
     },
-    "minimum-stability":"dev",
-    "autoload":{
-    	"psr-0":{
-    		"PDFMerger": "PDFMerger.php"
-    	}
+    "autoload": {
+        "psr-4": {
+            "andreaventuri\\PdfMerger\\": "src/"
+        }
     }
 }
