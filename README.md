@@ -1,11 +1,11 @@
 # PDFMerger for PHP (version 5.3 to 7.2)
 
-PDFMerger Forked from myokyawhtun/PDFMerger
+PDFMerger forked from myokyawhtun/PDFMerger
 
 New features:
 * PSR-4 support
 * Namespaces support
-* Possibility to print header and/or footer on the merged pdf.
+* Possibility to print header and/or footer on the merged pdf
 
 ## PHP 7 Compatible
 
