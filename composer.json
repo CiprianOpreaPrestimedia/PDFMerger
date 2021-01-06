@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "interactively\\PdfMerger\\": "src/"
+            "andreaventuri\\PdfMerger\\": "src/"
         }
     }
 }
